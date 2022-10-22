@@ -19,3 +19,9 @@ var isPeacefulDay = true;
 
 
 // what is short hand, how to use it?
+
+
+// what is parse integer, how to use it?
+
+
+// what is parse float, how to set code of that?
