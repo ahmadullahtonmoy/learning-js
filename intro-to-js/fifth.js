@@ -14,12 +14,15 @@ var addition = thirdNumber + fifthNumber;
 var subtraction = firstNumber - secondNumber;
 
 // multiplication
-var multiplication = secondNumber * fifthNumber;
+var multiplication = fourthNumber * fifthNumber;
 
 // division
 var division = firstNumber / fifthNumber;
 
-
+console.log("This is addition of 4 + 2 =",addition);
+console.log("This is subtraction of 12 + 6 =",subtraction);
+console.log("This is addition of 3 + 2 =",multiplication);
+console.log("This is addition of 12 + 2 =",division);
 
 // modulus
 var mangoes = 7;
