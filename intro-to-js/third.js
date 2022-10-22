@@ -1,0 +1,1 @@
+// Variable type, Numeric, String, Boolean
