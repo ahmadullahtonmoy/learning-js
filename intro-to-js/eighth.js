@@ -1,0 +1,1 @@
+// Different variable types and use toFixed with parseFloat.
