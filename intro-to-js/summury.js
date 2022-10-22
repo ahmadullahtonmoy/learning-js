@@ -15,3 +15,7 @@ var lastName = "Cruise";
 var isHotDay = false;
 var isPeacefulDay = true;
 
+// how to mathematical operation with variable?
+
+
+// what is short hand, how to use it?
