@@ -1,0 +1,1 @@
+// (advanced) Mathematical operation shorthand
