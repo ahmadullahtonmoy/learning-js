@@ -24,6 +24,15 @@ console.log("This is subtraction of 12 + 6 =",subtraction);
 console.log("This is addition of 3 + 2 =",multiplication);
 console.log("This is addition of 12 + 2 =",division);
 
+// special edition
+var pointTwo = 0.2;
+var pointThree = 0.1;
+var togetherPoint = pointTwo + pointThree;
+togetherPoint = togetherPoint.toFixed(1);
+togetherPoint = parseFloat(togetherPoint);
+console.log(togetherPoint);
+// console.log(parseFloat(togetherPoint.toFixed(1)));
+
 // modulus
 var mangoes = 7;
 var hungryPeople = 2;
