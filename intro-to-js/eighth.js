@@ -7,3 +7,18 @@
 var undefined;
 
 console.log(undefined);
+
+// numeric from string with parseFloat or parseInt.
+
+var tomAge = "12";
+var jerryAge = "6.50";
+var mickeyAge = "7.50";
+
+var ageOne = parseFloat(tomAge);
+var ageTwo = parseFloat(jerryAge);
+var ageThree = parseFloat(mickeyAge);
+console.log(ageOne, ageTwo, ageThree);
+
+var intOne = parseInt(jerryAge);
+var intTwo = parseInt(mickeyAge);
+console.log(intOne, intTwo);
