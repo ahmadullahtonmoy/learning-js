@@ -34,3 +34,12 @@ fruitsBucket.unshift("Purple Apple");
 fruitsBucket.unshift("Pink Apple");
 fruitsBucket.unshift("Double Apple");
 console.log(fruitsBucket);
+
+// now i'll remove element from the beginning of the array by using shift
+fruitsBucket.shift();
+fruitsBucket.shift();
+fruitsBucket.shift();
+fruitsBucket.shift();
+fruitsBucket.shift();
+fruitsBucket.shift();
+console.log(fruitsBucket); 
