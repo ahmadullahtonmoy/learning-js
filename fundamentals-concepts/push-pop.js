@@ -11,3 +11,16 @@ fruitsBucket.push("Lemon");
 fruitsBucket.push("Water Melon");
 fruitsBucket.push("Mango");
 console.log(fruitsBucket);
+
+// now i'm removing elements from last of the array
+fruitsBucket.pop();
+fruitsBucket.pop();
+fruitsBucket.pop();
+fruitsBucket.pop();
+fruitsBucket.pop();
+console.log(fruitsBucket);
+fruitsBucket.pop();
+fruitsBucket.pop();
+fruitsBucket.pop();
+fruitsBucket.pop();
+console.log(fruitsBucket);
