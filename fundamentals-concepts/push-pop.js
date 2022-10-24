@@ -24,3 +24,13 @@ fruitsBucket.pop();
 fruitsBucket.pop();
 fruitsBucket.pop();
 console.log(fruitsBucket);
+
+// now i'm add element in the beginning of the array by using unshift
+fruitsBucket.unshift("Green Apple");
+fruitsBucket.unshift("Red Apple");
+fruitsBucket.unshift("Black Apple");
+fruitsBucket.unshift("White Apple");
+fruitsBucket.unshift("Purple Apple");
+fruitsBucket.unshift("Pink Apple");
+fruitsBucket.unshift("Double Apple");
+console.log(fruitsBucket);
