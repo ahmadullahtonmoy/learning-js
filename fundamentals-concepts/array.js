@@ -6,4 +6,4 @@ var alphabet = ["A","B","C","D","E","F","G"];
 
 console.log(foodNames);
 console.log(foodPrices);
-console.log(alphabet);
+console.log(alphabet.length);
