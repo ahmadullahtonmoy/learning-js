@@ -1,4 +1,6 @@
 var colors = ["White","Red","Blue","Green","Yellow","Purple","Black"];
+console.log(colors);
+
 var whiteIndex = colors.indexOf("White");
 var blackIndex = colors.indexOf("Black");
 var redIndex = colors.indexOf("Red");
@@ -14,3 +16,7 @@ var indexTwo = colors[2];
 var indexOne = colors[1];
 var indexZero = colors[0];
 console.log(indexSix , indexFive , indexFour , indexThree , indexTwo , indexOne , indexZero);
+
+// now i'm practicing change an element by using index and position.
+colors[1] = "Gray";
+console.log(colors);
