@@ -9,3 +9,4 @@
 // how to remove element from last position of an array?
 // how to add an element in beginning of an array?
 // how to remove an element from beginning of an array?
+// how to comparison with variables?
