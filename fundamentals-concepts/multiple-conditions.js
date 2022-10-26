@@ -8,3 +8,6 @@ if (hasHome == true && hasJob == true) {
 else{
     console.log("You poor! GO away. You can't marry.");
 }
+
+var isRainy = true;
+var isCloudy = true;
