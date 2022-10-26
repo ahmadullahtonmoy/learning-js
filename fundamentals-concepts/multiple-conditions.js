@@ -22,3 +22,11 @@ else {
     console.log(homeAvailable);
 }
 
+isRainy = false;
+
+if (isCloudy == true && isRainy == false) {
+    console.log(homeAvailable);
+}
+else {
+    console.log(homeNotAvailable);
+}
