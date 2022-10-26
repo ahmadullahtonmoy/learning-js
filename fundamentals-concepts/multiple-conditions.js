@@ -11,3 +11,6 @@ else{
 
 var isRainy = true;
 var isCloudy = true;
+
+var homeAvailable = "You can go home.";
+var homeNotAvailable = "You can't go home. Stay here.";
