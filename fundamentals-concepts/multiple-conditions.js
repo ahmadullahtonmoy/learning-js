@@ -40,3 +40,13 @@ var symphony = 150;
 var iphone = 500;
 var realme = 350;
 
+var buySam = "Samsung";
+var buyNok = "Nokia";
+var buySon = "Sony";
+var buySym = "Symphony";
+var buyIph = "IPhone";
+var buyMI8 = "Realme";
+
+var myBudget = 800;
+
+var canBuy = "You Got ";
