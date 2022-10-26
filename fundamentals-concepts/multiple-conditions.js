@@ -48,5 +48,28 @@ var buyIph = "IPhone";
 var buyMI8 = "Realme";
 
 var myBudget = 800;
+myBudget = 400;
+myBudget = 210;
+myBudget = 160;
+myBudget = 60;
 
-var canBuy = "You Got ";
+var canBuy = "You Got";
+
+if (iphone <= myBudget) {
+    console.log(canBuy , buyIph);
+}
+else if (samsung < myBudget) {
+    console.log(canBuy , buySam);
+}
+else if (nokia < myBudget) {
+    console.log(canBuy , buyNok);
+}
+else if (sony < myBudget) {
+    console.log(canBuy , buySon);
+}
+else if (symphony < myBudget) {
+    console.log(canBuy , buySym);
+}
+else {
+    console.log(homeAvailable);
+}
