@@ -30,3 +30,13 @@ if (isCloudy == true && isRainy == false) {
 else {
     console.log(homeNotAvailable);
 }
+
+// multiple conditions
+
+var nokia = 200;
+var samsung = 250;
+var sony = 300;
+var symphony = 150;
+var iphone = 500;
+var realme = 350;
+
