@@ -4,3 +4,10 @@ while (roastGiven <= 8) {
     roastGiven++;
     // console.log(roastGiven);
 }
+
+var counter = 0;
+
+while (counter > -10) {
+    console.log("Counting:",counter);
+    counter--;
+}
