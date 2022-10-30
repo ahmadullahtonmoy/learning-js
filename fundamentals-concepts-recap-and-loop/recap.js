@@ -1,5 +1,8 @@
 // variables , types , naming convention
-
+var somethingPrice = 15;
+var somethingName = "walton";
+var isCold = true;
+var isHot = false;
 
 // array
 var colors = ["White","Black","Blue","Red"];
