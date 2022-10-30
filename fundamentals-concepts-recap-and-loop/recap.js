@@ -10,7 +10,13 @@ colors[2]= "Dark";
 console.log(colors);
 console.log(blackIndex);
 // push & pop
-
+colors.push("Gray");
+colors.push("Dark Gray");
+colors.push("Light Gray");
+colors.push("Double light Gray");
+console.log(colors);
+colors.pop();
+console.log("When pop",colors);
 // length
 
 
