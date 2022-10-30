@@ -18,7 +18,8 @@ console.log(colors);
 colors.pop();
 console.log("When pop",colors);
 // length
-
+var colorsLength = colors.length;
+console.log(colorsLength);
 
 // conditionals
 if (colors.length <= 7) {
