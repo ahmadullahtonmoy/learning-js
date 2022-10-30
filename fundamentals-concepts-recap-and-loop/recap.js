@@ -12,3 +12,9 @@ var colors = ["White","Black","Blue","Red"];
 
 
 // conditionals
+if (colors.length <= 7) {
+    console.log("You Have Little colors");
+}
+else {
+    console.log("You Have too many colors");
+}
