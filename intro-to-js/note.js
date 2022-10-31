@@ -1,4 +1,4 @@
-
+/* 
 1 Introduction to JavaScript, Run JavaScript in VSCode
 2 What is variable, five things you need to declare a variable
 3 Variable type, Numeric, String, Boolean
@@ -9,7 +9,7 @@
 8 Different variable types and use toFixed with parseFloat
 9 Summary and remainder modulus
 
-<!-- learnt from this class -->
+learnt from this class 
 data types > two data types > 1- primitive data types , 2- none-primitive data types.
 
 PRIMITIVE DATA TYPES:
@@ -17,3 +17,4 @@ PRIMITIVE DATA TYPES:
 
 NON-PRIMITIVE DATA TYPES:
 1-Object , 2-Array , 3-Function .
+*/
