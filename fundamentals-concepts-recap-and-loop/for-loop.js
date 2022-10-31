@@ -11,3 +11,8 @@ for (var i = 0; i <= 20; i = i + 2) {
 for (var i = 1; i <= 15; i += 2) {
     console.log("ODD NUMBER",i);
 }
+
+// more for loops
+for (var i = 0; i <= 50; i += 2) {
+    console.log(i);
+}
