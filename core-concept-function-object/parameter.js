@@ -4,3 +4,4 @@ function bringShingara (taka) {
 }
 
 var money = 250;
+bringShingara(money);
