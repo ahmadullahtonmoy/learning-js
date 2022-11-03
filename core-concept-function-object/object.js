@@ -6,3 +6,14 @@ var computer = {
 }
 
 console.log(computer);
+
+var samsungJ6 = {
+    brand: "SAMSUNG",
+    model: "J6-2018",
+    battery: "3000-mah",
+    ram: "3-GB",
+    rom: "32-GB",
+    price: "27000 TAKA"
+}
+
+console.log(samsungJ6);
