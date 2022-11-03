@@ -26,3 +26,18 @@ var subtractionText = "This is Subtraction Result";
 
 var subtractionResult = subtraction(budgetMoney,totalAmount);
 console.log(subtractionText,subtractionResult);
+
+
+// multiplication function
+function multiplication (firstMultiplicationNumber , secondMultiplicationNumber) {
+    var totalMultiplication = firstMultiplicationNumber * secondMultiplicationNumber;
+    return totalMultiplication;
+}
+
+var rowCount = 5;
+var columnCount = 6;
+
+var multiplicationText = "This is Multiplication Result";
+
+var multiplicationResult = multiplication(rowCount , columnCount);
+console.log(multiplicationText,multiplicationResult);
