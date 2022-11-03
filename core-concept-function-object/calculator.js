@@ -7,7 +7,7 @@ function addition (firstAdditionNumber , secondAdditionNumber) {
 var priceOne = 25;
 var priceTwo = 15;
 
-var additionText = "This is Addition Result";
+var additionText = "This is Addition Result:";
 
 var additionResult = addition(priceOne , priceTwo);
 console.log(additionText,additionResult);
@@ -22,7 +22,7 @@ function subtraction (firstSubtractNumber,secondSubtractNumber) {
 var budgetMoney = 200;
 var totalAmount = 170;
 
-var subtractionText = "This is Subtraction Result";
+var subtractionText = "This is Subtraction Result:";
 
 var subtractionResult = subtraction(budgetMoney,totalAmount);
 console.log(subtractionText,subtractionResult);
@@ -37,7 +37,7 @@ function multiplication (firstMultiplicationNumber , secondMultiplicationNumber)
 var rowCount = 5;
 var columnCount = 6;
 
-var multiplicationText = "This is Multiplication Result";
+var multiplicationText = "This is Multiplication Result:";
 
 var multiplicationResult = multiplication(rowCount , columnCount);
 console.log(multiplicationText,multiplicationResult);
@@ -52,7 +52,7 @@ function division (firstDivisionNumber , secondDivisionNumber) {
 var totalMango = 100;
 var hungryPeople = 20;
 
-var divisionText = "This is Division Result";
+var divisionText = "This is Division Result:";
 
 var divisionResult = division(totalMango,hungryPeople);
 console.log(divisionText,divisionResult);
