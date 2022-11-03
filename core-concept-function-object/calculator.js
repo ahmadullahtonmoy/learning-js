@@ -41,3 +41,18 @@ var multiplicationText = "This is Multiplication Result";
 
 var multiplicationResult = multiplication(rowCount , columnCount);
 console.log(multiplicationText,multiplicationResult);
+
+
+// division
+function division (firstDivisionNumber , secondDivisionNumber) {
+    totalDivision = firstDivisionNumber / secondDivisionNumber;
+    return totalDivision;
+}
+
+var totalMango = 100;
+var hungryPeople = 20;
+
+var divisionText = "This is Division Result";
+
+var divisionResult = division(totalMango,hungryPeople);
+console.log(divisionText,divisionResult);
