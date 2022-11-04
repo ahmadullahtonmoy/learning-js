@@ -9,3 +9,11 @@ var mobileOne = {
 
 console.log(mobileOne);
 
+// how to read an object property. there are two way to read object property
+
+var mobileBrand = mobileOne.Brand;
+console.log("This is mobile brand through variable :",mobileBrand);
+
+console.log("The Mobile Brand is :",mobileOne.Brand);
+
+console.log("The Mobile Brand is :",mobileOne["Brand"]);
