@@ -5,5 +5,5 @@
 4 (advanced) Multiple parameter add, multiplication, etc
 5 Declare multiple objects with multiple properties
 6 multiple ways to get and set object property
-
+7 (optional) Javascript switch case break and default
 */
