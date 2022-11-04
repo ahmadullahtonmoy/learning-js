@@ -1,4 +1,10 @@
 // 01 - how to declare a function
+function multiplicationCalculator (firstNumber , secondNumber) {
+    var total = firstNumber * secondNumber;
+    return total;
+}
+
+multiplicationCalculator();
 // 02 - giving a name of function
 // 03 - how to call a function
 // 04 - how to set parameter in function
