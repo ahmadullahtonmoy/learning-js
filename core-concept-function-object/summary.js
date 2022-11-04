@@ -11,5 +11,14 @@ multiplicationCalculator();
 // 05 - how to use return in function
 // 06 - how to use multiple parameter in function
 // 07 - how to declare an object
+var aComputer = {
+    Color: "Black & Silver",
+    MotherBoard: "MSI Mortar",
+    Processor: "Intel Core i5 10th Gen",
+    RAM: "16-GB",
+    Storage: "512-GB SSD",
+    Monitor: "DELL 21 INCH",
+    Price: "25000",
+};
 // 08 - how to see a property of an object
 // 09 - there is two way to see an object property
