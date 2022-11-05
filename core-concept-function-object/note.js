@@ -7,4 +7,5 @@
 6 multiple ways to get and set object property
 7 (optional) Javascript switch case break and default
 8 (advanced) while and for loop break and continue
+9 Module summary and JS recap
 */
