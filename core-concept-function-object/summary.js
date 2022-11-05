@@ -20,5 +20,7 @@ var aComputer = {
     Monitor: "DELL 21 INCH",
     Price: "25000",
 };
+
+console.log(aComputer);
 // 08 - how to see a property of an object
 // 09 - there is two way to see an object property
