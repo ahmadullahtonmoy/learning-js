@@ -26,3 +26,5 @@ console.log(aComputer);
 var computerPrice = aComputer.Price;
 console.log(computerPrice);
 // 09 - there is two way to see an object property
+aComputer.Price;
+aComputer["Price"];
