@@ -28,3 +28,5 @@ console.log(computerPrice);
 // 09 - there is two way to see an object property
 aComputer.Price;
 aComputer["Price"];
+// 10 - how to change an object property
+// 11 - how to declared a switch
