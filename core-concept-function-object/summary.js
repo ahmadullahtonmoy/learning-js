@@ -23,4 +23,6 @@ var aComputer = {
 
 console.log(aComputer);
 // 08 - how to see a property of an object
+var computerPrice = aComputer.Price;
+console.log(computerPrice);
 // 09 - there is two way to see an object property
