@@ -31,3 +31,16 @@ aComputer["Price"];
 // 10 - how to change an object property
 // 11 - how to declared a switch
 var counter = 0;
+
+
+/* module class summary */
+// variable
+
+// array
+var color = ["Red","Blue","Green","Purple"];
+// array index
+
+// check if Black exist in array
+if(color.indexOf("Black") == -1) {
+    console.log("There is no Black Color exist");
+}
