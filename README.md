@@ -1,6 +1,8 @@
 # learning-js
 this is my learning repo. i will learn code and practice here...
 
+initial testing
+
 Serial of Modules
 1- Introduction to JavaScript;
 2- Fundamental Concepts Array and Conditionals;
