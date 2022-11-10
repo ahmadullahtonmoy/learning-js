@@ -17,3 +17,7 @@ function inchToFeet (inches) {
 const myInches = 50;
 let myFeet = inchToFeet(myInches);
 console.log("My Feet",myFeet);
+
+const secondInches = 120;
+let secondFeet = inchToFeet(secondInches);
+console.log("Second Feet:",secondFeet);
