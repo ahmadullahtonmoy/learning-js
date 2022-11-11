@@ -13,6 +13,8 @@ const isEvenCheck = isEven(20);
 console.log(evenConsoleText,isEvenCheck);
 
 
+// odd number function
+
 function isOdd (numberOdd) {
     if (numberOdd % 2 != 0) {
         return true;
