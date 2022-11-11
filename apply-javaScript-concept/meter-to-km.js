@@ -5,5 +5,8 @@ function meterToKm (meters) {
     return km;
 }
 
+const firstText = "Meter =";
+const lastText = "Kilo Meter";
+
 var randomMeter = meterToKm(40000);
-console.log(randomMeter);
+console.log(40000 , firstText , randomMeter , lastText);
