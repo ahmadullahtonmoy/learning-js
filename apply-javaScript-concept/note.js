@@ -5,4 +5,5 @@
 4 Check whether a year is a Leap Year or not
 5 Calculate Factorial of a number using for loop
 6 Recalculate factorial multiple times using a function
+7 Factorial using a while loop or a decrementing loop
 */
