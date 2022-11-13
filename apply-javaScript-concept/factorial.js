@@ -1,8 +1,9 @@
-var factorial = 1;
+let factorial = 1;
+let counter = 3;
 
-for (let i = 1; i <= 9; i++) {
+for (let i = 1; i <= counter; i++) {
     console.log("Counting ForLoop:",i);
     factorial = factorial * i;
 }
 
-console.log(factorial);
+console.log("This is Factorial Result:",factorial);
