@@ -22,3 +22,11 @@ let randomNumbers = 5;
 
 const callFactorialFunction = factorialLoop(randomNumbers);
 console.log("Factorial of",randomNumbers,"is =",callFactorialFunction);
+
+
+
+
+// factorial function with while loop
+
+
+// factorial function with decrement loop
