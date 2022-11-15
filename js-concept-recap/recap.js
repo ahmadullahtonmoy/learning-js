@@ -11,7 +11,7 @@
 
 /*
 home work
-1- celcious to farenheight (function)
+1- celsius to fahrenheit (function)
 2- reverse of prev.
 3- grade calculator
 4- simple interest
