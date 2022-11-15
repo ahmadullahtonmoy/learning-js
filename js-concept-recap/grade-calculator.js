@@ -16,7 +16,7 @@ function getGrade (num) {
         console.log("You Got C");
     }
     else if (num >= 33 && num <= 39) {
-        console.log("You Got A");
+        console.log("You Got D");
     }
     else if (num >= 0 && num <= 32) {
         console.log("Ohh NO!! You Are Failed!");
