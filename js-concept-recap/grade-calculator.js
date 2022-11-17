@@ -23,10 +23,14 @@ function getGrade (num) {
     }
 }
 
-getGrade(90);
+/* getGrade(90);
 getGrade(70);
 getGrade(60);
 getGrade(50);
 getGrade(40);
 getGrade(33);
-getGrade(32);
+getGrade(32); */
+
+const rafiMark = getGrade(45);
+console.log("Hey Rafi!",rafiMark);
+// there is a bug in function return.........
