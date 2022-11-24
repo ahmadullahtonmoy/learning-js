@@ -4,3 +4,5 @@
 3 Find max of two values, find max of three values
 4 Sum of all numbers in an array
 */
+
+// is object can up-down variable value?
