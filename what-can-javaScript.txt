@@ -1,0 +1,6 @@
+js can change html content
+js can change html attributes value
+js can change css
+js can change html style (css)
+js can hide html element
+js can show html element
