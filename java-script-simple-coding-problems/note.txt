@@ -4,5 +4,6 @@
 4 Sum of all numbers in an array
 5 Find the largest element of an array
 6 Create a Fibonacci Series using a for loop
+7 Handle unexpected input using simple return
 
 is object can up-down variable value?
