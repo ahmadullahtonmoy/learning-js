@@ -3,5 +3,6 @@
 3 Find max of two values, find max of three values
 4 Sum of all numbers in an array
 5 Find the largest element of an array
+6 Create a Fibonacci Series using a for loop
 
 is object can up-down variable value?
