@@ -15,3 +15,7 @@ console.log(intTwo);
 // integer to lower closest number
 let intThree = Math.floor(numberUpDown);
 console.log(intThree);
+
+// random integer
+let randomInt = Math.floor(Math.random() * 7);
+console.log("Random Rice:",randomInt);
