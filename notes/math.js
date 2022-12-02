@@ -19,3 +19,7 @@ console.log(intThree);
 // random integer
 let randomInt = Math.floor(Math.random() * 7);
 console.log("Random Rice:",randomInt);
+
+// return random int 1 to 10;
+let randomTwo = Math.floor(Math.random() * 11) + 1;
+console.log("1-10 Random Dice:", randomTwo);
