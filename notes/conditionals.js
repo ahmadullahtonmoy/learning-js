@@ -28,13 +28,10 @@ if (activated == true && deactivated == false && positivePower == 1 && negativeP
     console.log("The Switch is ON");
     console.log("Condition of Power is Good!");
 }
-else if (activated == true && deactivated == false && positivePower == !1 && negativePower == 0) {
-    console.log("ERROR!!! There is no Positive Power!!!")
-}
 else if (activated == false && deactivated == true && negativePower == 0 && positivePower == 1) {
     console.log("The Switch is OFF");
     console.log("Condition of Power is Good!");
-} else {
+}else {
     console.log("The Power Line is DAMAGED!!!");
 }
 
