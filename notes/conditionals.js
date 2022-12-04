@@ -4,7 +4,7 @@ let apple; let orange; let banana;
 apple = 10; orange = 20; banana = 30;
 
 if (apple < orange) {
-    console.log("Take Apple");
+    // console.log("Take Apple");
 }
 
 
@@ -18,16 +18,15 @@ switch off , bad condition.
 */
 let activeSwitch = 9;
 let inactiveSwitch = 7;
-const deactivated = true;
+const deactivated = false;
 
-if (activeSwitch == 9 && inactiveSwitch == 7) {
+if (activeSwitch == 9 && inactiveSwitch == 7 && deactivated == false) {
     console.log("ON");
     console.log("Condition of line is Good!");
 }
-else if (activeSwitch == 9 && inactiveSwitch == 9) {}
-else if (activeSwitch == 7 && inactiveSwitch == 7) {}
-else if (activeSwitch == 7 && inactiveSwitch == 9) {}
 else if (inactiveSwitch == 7 && activeSwitch == 9 && deactivated == true) {
     console.log("OFF");
     console.log("Condition of line is Good!");
+} else {
+    console.log("The Power Line id DAMAGED!!!");
 }
