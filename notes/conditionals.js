@@ -19,18 +19,35 @@ switch off , bad condition.
 let positivePower = 1;
 let negativePower = 0;
 
-positivePower = 0;
+// positivePower = 0;
+// negativePower = 1;
 
-const activated = true;
-const deactivated = false;
+const activated = false;
+const deactivated = true;
 
-if (activated == true && deactivated == false && positivePower == 1 && negativePower == 0) {
-    console.log("The Switch is ON");
-    console.log("Condition of Power is Good!");
+if (activated == true && deactivated == false) {
+    if (positivePower == 1 && negativePower == 0) {
+        console.log("The Switch is ON");
+        console.log("Condition of Power is Good!");
+    }
+    else if (positivePower != 1 && negativePower == 0) {
+        console.log("Error!!! There is no Positive Power on the Socket");
+    }
+    else if (positivePower == 1 && negativePower != 0 || positivePower == 0 && negativePower != 0) {
+        console.log("DANGER!!! The Power Line is Shocked!");
+    }
 }
-else if (activated == false && deactivated == true && negativePower == 0 && positivePower == 1) {
-    console.log("The Switch is OFF");
-    console.log("Condition of Power is Good!");
+else if (activated == false && deactivated == true) {
+    if (positivePower == 0 && negativePower == 0) {
+        console.log("The Switch is OFF");
+        console.log("Condition of Power is Good!");
+    }
+    else if (positivePower != 0 && negativePower == 0) {
+        console.log("Error!!! Switch is OFF but Positive Power is Exist in Socket");
+    }
+    else if (positivePower == 0 && negativePower != 0 || positivePower == 1 && negativePower != 0) {
+        console.log("DANGER!!! The Power Line is Shocked!");
+    }
 }else {
     console.log("The Power Line is DAMAGED!!!");
 }
