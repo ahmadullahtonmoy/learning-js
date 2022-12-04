@@ -16,19 +16,25 @@ switch off , good condition.
 switch off , bad condition.
 [out of topic{those are binary(1000 , 1011)those are binary}out of topic]
 */
-let activeSwitch = 1;
-let inactiveSwitch = 0;
+let positivePower = 1;
+let negativePower = 0;
+
+positivePower = 0;
+
 const activated = true;
 const deactivated = false;
 
-if (activated == true && deactivated == false && activeSwitch == 1 && inactiveSwitch == 0) {
-    console.log("ON");
-    console.log("Condition of line is Good!");
+if (activated == true && deactivated == false && positivePower == 1 && negativePower == 0) {
+    console.log("The Switch is ON");
+    console.log("Condition of Power is Good!");
 }
-else if (activated == false && deactivated == true && inactiveSwitch == 0 && activeSwitch == 1) {
-    console.log("OFF");
-    console.log("Condition of line is Good!");
+else if (activated == true && deactivated == false && positivePower == !1 && negativePower == 0) {
+    console.log("ERROR!!! There is no Positive Power!!!")
+}
+else if (activated == false && deactivated == true && negativePower == 0 && positivePower == 1) {
+    console.log("The Switch is OFF");
+    console.log("Condition of Power is Good!");
 } else {
-    console.log("The Power Line id DAMAGED!!!");
+    console.log("The Power Line is DAMAGED!!!");
 }
 
