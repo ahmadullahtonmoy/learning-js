@@ -18,13 +18,14 @@ switch off , bad condition.
 */
 let activeSwitch = 1;
 let inactiveSwitch = 0;
+const activated = true;
 const deactivated = false;
 
-if (activeSwitch == 1 && inactiveSwitch == 0 && deactivated == false) {
+if (activated == true && deactivated == false && activeSwitch == 1 && inactiveSwitch == 0) {
     console.log("ON");
     console.log("Condition of line is Good!");
 }
-else if (inactiveSwitch == 0 && activeSwitch == 1 && deactivated == true) {
+else if (activated == false && deactivated == true && inactiveSwitch == 0 && activeSwitch == 1) {
     console.log("OFF");
     console.log("Condition of line is Good!");
 } else {
