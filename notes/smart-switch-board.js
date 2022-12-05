@@ -88,7 +88,10 @@ negative = 010;
 
 // deactivated 1st condition:
 activate = false;
-deactivate = false;
+deactivate = true;
+
+positive = 0;
+negative = 0;
 
 if (activate == true && deactivate == false) {
     if (positive == 1 && negative == 0) {
