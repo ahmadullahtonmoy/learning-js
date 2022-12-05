@@ -3,7 +3,7 @@ switch activated {
     positive(1) + negative(0) = Positive(1) , Negative(0). health is Good!
     positive(1) + negative(1) = Error! Negative(1) Power on. But Health is not Good!
     positive(0) + negative(0) = Error! Positive(0) , Negative(0). There is no Power! Please Check Your Power Management!
-    positive(!= 1) + negative(!=0) = Error! Positive(>~<) , Negative(>~<). Power Error!!! Check Out What Happened!
+    positive(101) + negative(010) = Error! Positive(>~<) , Negative(>~<). Power Error!!! Check Out What Happened!
 }
 
 switch deactivated {
@@ -81,6 +81,11 @@ negative = 1;
 positive = 0;
 negative = 0;
 
+// activated 4th condition:
+
+positive = 101;
+negative = 010;
+
 if (activate == true && deactivate == false) {
     if (positive == 1 && negative == 0) {
         console.log(activated_1);
@@ -91,7 +96,7 @@ if (activate == true && deactivate == false) {
     else if (positive == 0 && negative == 0) {
         console.log(activated_3);
     }
-    else if (positive != 1 && negative != 0) {
+    else if (positive == 101 && negative == 010) {
         console.log(activated_4);
     }
 }
