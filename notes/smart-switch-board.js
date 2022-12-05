@@ -65,12 +65,12 @@ let deactivated_3 = {
 };
 
 let activate = true;
-let deactivate = true;
+let deactivate = false;
 
 let positive = 1;
 let negative = 0;
 
-if (activate == true && deactivate == true) {
+if (activate == true && deactivate == false) {
     if (positive == 1 && negative == 0) {
         console.log(activated_1);
     }
@@ -84,3 +84,4 @@ if (activate == true && deactivate == true) {
         console.log(activated_4);
     }
 }
+else if (activate == false && deactivate == true)
