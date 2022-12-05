@@ -84,4 +84,14 @@ if (activate == true && deactivate == false) {
         console.log(activated_4);
     }
 }
-else if (activate == false && deactivate == true)
+else if (activate == false && deactivate == true) {
+    if (positive == 0 && negative == 0) {
+        console.log(deactivated_1);
+    }
+    else if (positive == 1 && negative == 0) {
+        console.log(deactivated_2);
+    }
+    else if (positive == 1 && negative == 1) {
+        console.log(deactivated_3);
+    }
+}
