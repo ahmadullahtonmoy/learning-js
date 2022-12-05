@@ -64,11 +64,17 @@ let deactivated_3 = {
     Warning: "The Power Board is Shocked Out! Please REPAIR Your Power Management!",
 };
 
+// activated 1st condition
 let activate = true;
 let deactivate = false;
 
 let positive = 1;
 let negative = 0;
+
+// activated 2nd condition:
+
+positive = 1;
+negative = 1;
 
 if (activate == true && deactivate == false) {
     if (positive == 1 && negative == 0) {
