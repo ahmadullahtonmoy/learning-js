@@ -80,4 +80,7 @@ if (activate == true && deactivate == true) {
     else if (positive == 0 && negative == 0) {
         console.log(activated_3);
     }
+    else if (positive != 1 && negative != 0) {
+        console.log(activated_4);
+    }
 }
