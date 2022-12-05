@@ -86,6 +86,10 @@ negative = 0;
 positive = 101;
 negative = 010;
 
+// deactivated 1st condition:
+activate = false;
+deactivate = false;
+
 if (activate == true && deactivate == false) {
     if (positive == 1 && negative == 0) {
         console.log(activated_1);
@@ -110,4 +114,6 @@ else if (activate == false && deactivate == true) {
     else if (positive == 1 && negative == 1) {
         console.log(deactivated_3);
     }
+} else {
+    console.log("Your System is Throttled. REPAIR Immediate");
 }
