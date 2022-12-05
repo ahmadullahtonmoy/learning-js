@@ -76,6 +76,11 @@ let negative = 0;
 positive = 1;
 negative = 1;
 
+// activated 3rd condition:
+
+positive = 0;
+negative = 0;
+
 if (activate == true && deactivate == false) {
     if (positive == 1 && negative == 0) {
         console.log(activated_1);
