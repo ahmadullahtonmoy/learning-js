@@ -98,6 +98,11 @@ negative = 0;
 positive = 1;
 negative = 0;
 
+// deactivated 3rd condition:
+
+positive = 1;
+negative = 1;
+
 if (activate == true && deactivate == false) {
     if (positive == 1 && negative == 0) {
         console.log(activated_1);
