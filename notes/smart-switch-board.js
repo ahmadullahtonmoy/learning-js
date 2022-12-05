@@ -65,8 +65,16 @@ let deactivated_3 = {
 };
 
 let activate = true;
-let deactivate = false;
+let deactivate = true;
 
 let positive = 1;
 let negative = 0;
 
+if (activate == true && deactivate == true) {
+    if (positive == 1 && negative == 0) {
+        console.log(activated_1);
+    }
+    else if (positive == 1 && negative == 1) {
+        console.log(activated_2);
+    }
+}
