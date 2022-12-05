@@ -16,3 +16,17 @@ writing conditions will be continued....
 */
 
 // creating object for power management DATA...
+
+let activated_1 = {
+    Status: "Activated",
+    Health: "Good",
+    Positive: 1,
+    Negative: 0,
+    Note: "All Good",
+};  let activated_2 = {
+        Status: "Activated",
+        Health: "Not Good",
+        Positive: 1,
+        Negative: 1,
+        Note: "Error! This Gonna be a Serious Problem! Its Harm for Your Devices! Please Repair Your Power Management!!",
+    };
