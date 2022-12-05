@@ -11,4 +11,8 @@ switch deactivated {
     positive(1) + negative(0) = Error! Positive(1) Power is not OFF. Health is not Good!
     positive(1) + negative(1) = DANGER! Positive(1) , Negative(1). The Power Board is Shocked Out! Please REPAIR Your Power Management!
 }
+
+writing conditions will be continued....
 */
+
+// creating object for power management DATA...
