@@ -10,7 +10,7 @@ if (apple < orange) {
 
 // making a on/off switch:
 /*
-the nested condition will written later..........
+the nested condition will be written later..........
 [out of topic{those are binary(1000 , 1011)those are binary}out of topic]
 */
 let positivePower = 1;
