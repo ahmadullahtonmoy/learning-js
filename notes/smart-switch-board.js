@@ -119,6 +119,9 @@ if (activate == true && deactivate == false) {
     else if (positive == 101 && negative == 010) {
         console.log(activated_4);
     }
+    else {
+        console.log("Your System is Throttled. REPAIR Immediate");
+    }
 }
 else if (activate == false && deactivate == true) {
     if (positive == 0 && negative == 0) {
@@ -129,6 +132,9 @@ else if (activate == false && deactivate == true) {
     }
     else if (positive == 1 && negative == 1) {
         console.log(deactivated_3);
+    }
+    else {
+        console.log("Your System is Throttled. REPAIR Immediate");
     }
 } else {
     console.log("Your System is Throttled. REPAIR Immediate");
