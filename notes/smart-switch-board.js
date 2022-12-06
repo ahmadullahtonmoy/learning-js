@@ -23,39 +23,42 @@ let activated_1 = {
     Positive: 1,
     Negative: 0,
     Warning: "All Good",
-};  let activated_2 = {
-        Status: "Activated",
-        Health: "Not Good",
-        Positive: 1,
-        Negative: 1,
-        Warning: "Error! This Gonna be a Serious Problem! Its Harm for Your Devices! Please Repair Your Power Management!!",
-    };  let activated_3 = {
-            Status: "Activated",
-            Health: "Not Good",
-            Positive: 0,
-            Negative: 0,
-            Warning: "Error! There is no power! Please Check Your Power Management!",
-        };  let activated_4 = {
-                Status: "Activated",
-                Health: "Damaged!",
-                Positive: "[>~<]",
-                Negative: "[>~<]",
-                Warning: "DANGER! Repair Your Power Management Before Using it!"
-            };
-        let deactivated_1 = {
-            Status: "Deactivated",
-            Health: "Good",
-            Positive: 0,
-            Negative: 0,
-            Warning: "All Good!",
-        };
-    let deactivated_2 = {
-        Status: "Deactivated",
-        Health: "Not Good!",
-        Positive: 1,
-        Negative: 0,
-        Warning: "System Error! The Power is not Down",
-    };
+};
+let activated_2 = {
+    Status: "Activated",
+    Health: "Not Good",
+    Positive: 1,
+    Negative: 1,
+    Warning: "Error! This Gonna be a Serious Problem! Its Harm for Your Devices! Please Repair Your Power Management!!",
+};
+let activated_3 = {
+    Status: "Activated",
+    Health: "Not Good",
+    Positive: 0,
+    Negative: 0,
+    Warning: "Error! There is no power! Please Check Your Power Management!",
+};
+let activated_4 = {
+    Status: "Activated",
+    Health: "Damaged!",
+    Positive: "[>~<]",
+    Negative: "[>~<]",
+    Warning: "DANGER! Repair Your Power Management Before Using it!",
+};
+let deactivated_1 = {
+    Status: "Deactivated",
+    Health: "Good",
+    Positive: 0,
+    Negative: 0,
+    Warning: "All Good!",
+};
+let deactivated_2 = {
+    Status: "Deactivated",
+    Health: "Not Good!",
+    Positive: 1,
+    Negative: 0,
+    Warning: "System Error! The Power is not Down",
+};
 let deactivated_3 = {
     Status: "Deactivated",
     Health: "DANGER!",
