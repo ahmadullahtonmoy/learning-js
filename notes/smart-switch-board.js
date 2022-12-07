@@ -92,6 +92,7 @@ negative = 010;
 // deactivated 1st condition:
 activate = false;
 deactivate = true;
+deactivate = false;
 
 positive = 0;
 negative = 0;
@@ -139,3 +140,6 @@ else if (activate == false && deactivate == true) {
 } else {
     console.log("Your System is Throttled. REPAIR Immediate");
 }
+
+
+// let the logic in function
