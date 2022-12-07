@@ -66,7 +66,7 @@ let deactivated_3 = {
     Negative: 1,
     Warning: "The Power Board is Shocked Out! Please REPAIR Your Power Management!",
 };
-
+/*
 // activated 1st condition
 let activate = true;
 let deactivate = false;
@@ -106,7 +106,7 @@ negative = 0;
 
 positive = 1;
 negative = 1;
-
+*/
 if (activate == true && deactivate == false) {
     if (positive == 1 && negative == 0) {
         console.log(activated_1);
@@ -143,3 +143,4 @@ else if (activate == false && deactivate == true) {
 
 
 // let the logic in function
+
