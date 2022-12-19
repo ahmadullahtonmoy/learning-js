@@ -31,4 +31,9 @@ console.log("The Double of Total Price is:" , itDouble);
 // now i'll see the remaining price of total price if that is divided equally to people by using modulus.
 let people = 2;
 let remainingPrice = totalPrice % people;
-console.log("The Remaining Price Is:" , remainingPrice);
+console.log("After divided in two people the Remaining Price Is:" , remainingPrice);
+
+// let's divide it in 3 people.
+people = 3;
+let divideIt = totalPrice / people;
+console.log("Everyone Should Paying Amount is:" , divideIt);
