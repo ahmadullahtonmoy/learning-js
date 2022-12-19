@@ -17,5 +17,5 @@ let iceCreamPrice = 20;
 let chocolatePrice = 25;
 let donutPrice = 30;
 
-var addingSum = iceCreamPrice + chocolatePrice + donutPrice;
-console.log(addingSum);
+var totalPrice = iceCreamPrice + chocolatePrice + donutPrice;
+console.log("Total Price of Ice Cream , Chocolate and Donut is:" , totalPrice);
