@@ -23,3 +23,7 @@ console.log("Total Price of Ice Cream , Chocolate and Donut is:" , totalPrice);
 // now i'll find out the donut price from the total price of those three item using subtraction.
 let knowDonutPrice = totalPrice - (iceCreamPrice + chocolatePrice);
 console.log("The Donut Price Is:" , knowDonutPrice)
+
+// now i'll get double of total price by using multiply.
+let itDouble = totalPrice * 2;
+console.log("The Double of Total Price is:" , itDouble);
