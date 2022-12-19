@@ -27,3 +27,8 @@ console.log("The Donut Price Is:" , knowDonutPrice)
 // now i'll get double of total price by using multiply.
 let itDouble = totalPrice * 2;
 console.log("The Double of Total Price is:" , itDouble);
+
+// now i'll see the remaining price of total price if that is divided equally to people by using modulus.
+let people = 2;
+let remainingPrice = totalPrice % people;
+console.log("The Remaining Price Is:" , remainingPrice);
