@@ -37,3 +37,16 @@ console.log("After divided in two people the Remaining Price Is:" , remainingPri
 people = 3;
 let divideIt = totalPrice / people;
 console.log("Everyone Should Paying Amount is:" , divideIt);
+
+
+// mathematic sort hand . += , -= , *=
+// += increase value , -= decrement value
+let increase = 0;
+let decrement = 20;
+console.log("Increase Value Before Increase:",increase);
+console.log("Decrement Value Before Decrement:",decrement);
+
+increase += 1;
+decrement -= 1;
+console.log("Increase Value After Increase one level:",increase);
+console.log("Decrement Value After Decrement one level:",decrement);
