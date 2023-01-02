@@ -50,3 +50,8 @@ increase += 1;
 decrement -= 1;
 console.log("Increase Value After Increase one level:",increase);
 console.log("Decrement Value After Decrement one level:",decrement);
+
+increase += 2;
+decrement -= 2;
+console.log("Increase Value, After Increase two level:",increase);
+console.log("Decrement Value, After Decrement two level:",decrement);
