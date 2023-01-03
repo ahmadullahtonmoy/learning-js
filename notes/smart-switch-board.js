@@ -1,4 +1,6 @@
 /*
+NON-COMPLETED PROJECT
+
 switch activated {
     positive(1) + negative(0) = Positive(1) , Negative(0). health is Good!
     positive(1) + negative(1) = Error! Negative(1) Power on. But Health is not Good!
