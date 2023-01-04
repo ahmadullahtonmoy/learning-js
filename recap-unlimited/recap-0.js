@@ -55,3 +55,13 @@ increase += 2;
 decrement -= 2;
 console.log("Increase Value, After Increase two level:",increase);
 console.log("Decrement Value, After Decrement two level:",decrement);
+
+
+// array. declaring an array.
+var friendsName = [];
+console.log("Friends Name Array:",friendsName);
+// data entry in array.
+friendsName.push("Hablu");
+friendsName.push("Bablu");
+friendsName.push("Kablu");
+console.log(friendsName);
