@@ -75,3 +75,16 @@ friendsName.pop();
 friendsName.pop();
 friendsName.pop();
 console.log(friendsName);
+
+
+// conditionals (if-else , else-if , else)
+
+if (friendsName.length >= 4) {
+    console.log("There are up to minimum data in the array");
+}
+else if (friendsName.length <= 4) {
+    console.log("There are minimum data in the array");
+}
+else {
+    console.log("There no limit pack in the array");
+}
