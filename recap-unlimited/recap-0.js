@@ -69,3 +69,9 @@ friendsName.push("Jablu");
 friendsName.push("Pablu");
 friendsName.push("Dablu");
 console.log(friendsName);
+// data out from array last position using pop.
+friendsName.pop();
+friendsName.pop();
+friendsName.pop();
+friendsName.pop();
+console.log(friendsName);
