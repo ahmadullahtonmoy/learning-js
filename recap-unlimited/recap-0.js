@@ -64,4 +64,8 @@ console.log("Friends Name Array:",friendsName);
 friendsName.push("Hablu");
 friendsName.push("Bablu");
 friendsName.push("Kablu");
+friendsName.push("Yablu");
+friendsName.push("Jablu");
+friendsName.push("Pablu");
+friendsName.push("Dablu");
 console.log(friendsName);
