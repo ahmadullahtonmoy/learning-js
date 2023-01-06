@@ -88,3 +88,10 @@ else if (friendsName.length <= 4) {
 else {
     console.log("There no limit pack in the array");
 }
+
+
+// forloop
+
+for(let i = 0; i <= 9; i++){
+    console.log(i);
+}
