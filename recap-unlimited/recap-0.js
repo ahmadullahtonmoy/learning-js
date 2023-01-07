@@ -89,9 +89,27 @@ else {
     console.log("There no limit pack in the array");
 }
 
+// nested condition
+let person = 5;
+let fruits = 15;
+
+if (person = 5) {
+    if (fruits = 15) {
+        console.log("Everyone get Equally:", 15/5);
+    }
+    else if (person = 3) {
+        console.log("Everyone get Equally:", 15/3);
+    }
+    else if (person = 1) {
+        console.log("All fruits in one hand!");
+    }
+}
+else {
+    console.log("Khawa lagbona karo");
+}
+
 
 // forloop
-
 for(let i = 0; i <= 9; i++){
     console.log(i);
 }
