@@ -120,3 +120,12 @@ while (i < 9) {
     console.log(i);
     i++;
 }
+
+
+
+// function
+function turnOn() {
+    console.log("Turn on the fan.");
+}
+
+turnOn();
