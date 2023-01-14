@@ -108,3 +108,21 @@ else {
     console.log("Khawa lagbona karo");
 }
 
+
+
+// for loop
+// for loop run for counting zero to twenty
+for (let i = 0; i <= 20; i++) {
+    console.log("For Loop Counter Running for 0 to 20:" , i);
+}
+
+
+
+// while loop
+// while loop run for counting zero to twenty
+let whileCount = 0;
+
+while (whileCount <= 20) {
+    console.log("While Loop Counter Running for 0 to 20:" , whileCount);
+    whileCount++;
+}
