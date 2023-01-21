@@ -1,0 +1,14 @@
+Five task for practice-0.0
+    1- convert radian to degree (function)
+    2- check whether the given file name is a javascript file or not
+    3- calculate the total oil price that i have to pay
+        a- diesel price -------> 114
+        b- petrol price -------> 130
+        c- octane price -------> 135
+    4- public bus fare (function name)
+        a- reserved bus -> 50 people
+        b- microbus -----> 11 people
+        c- rest people will go by public bus
+        d- total people -> 65
+        e- public bus fare = 250
+    5- is best friend (function)
