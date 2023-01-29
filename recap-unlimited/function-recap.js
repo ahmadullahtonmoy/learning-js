@@ -1,9 +1,7 @@
-function bringSingara(taka){
-    let singaraPrice = 10;
-    const givenMoney = taka;
-    const giveSingara = givenMoney / singaraPrice;
-    return giveSingara;
+function function0(p1,p2){
+    return p1 * p2;
 }
 
-const singaraQty = bringSingara(100);
-console.log(singaraQty);
+const result0 = function0(2 , 2);
+console.log("Result of Function Zero:" , result0);
+
